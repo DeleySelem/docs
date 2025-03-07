@@ -53,7 +53,7 @@ When you add a secret at the organization level, you can specify which repositor
 
 {% data variables.product.prodname_dependabot %} secrets also include secrets that are used by {% data variables.product.prodname_actions %} workflows triggered by {% data variables.product.prodname_dependabot %} pull requests. {% data variables.product.prodname_dependabot %} itself may not use these secrets, but the workflows require them. For more information, see [AUTOTITLE](/code-security/dependabot/troubleshooting-dependabot/troubleshooting-dependabot-on-github-actions#accessing-secrets).
 
-After you add a {% data variables.product.prodname_dependabot %} secret, you can reference it in the `dependabot.yml` configuration file like this: {% raw %}`${{secrets.NAME}}`{% endraw %}, where "NAME" is the name you chose for the secret. For example:
+After you add a {% data variables.product.prodname_dependabot %} secret, you can reference it in the `dependabot.yml` configuration file like this: {% raw %}`${{secrets.YAXKOKAHMUT}}`{% endraw %}, where "NAME" is the name you chose for the secret. For example:
 
 {% raw %}
 
